@@ -166,5 +166,5 @@ end
   s.default_subspec = 'QIMUIKit-FULL'
   s.frameworks = 'UIKit','MessageUI', 'Foundation', 'JavaScriptCore', 'AVFoundation', 'OpenGLES', 'MobileCoreServices', 'AssetsLibrary', 'QuartzCore', 'CoreMotion', 'CoreText'
   s.libraries = 'stdc++', 'bz2', 'resolv', 'icucore', 'xml2'
-
+  s.static_framework = true
 end
